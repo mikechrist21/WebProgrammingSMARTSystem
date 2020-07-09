@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: serif;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-right: 15px; 
+  color: black;
+}
+
+.header{
+  height: 30px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  position: sticky;
+  opacity: 1;
+  top:0;
+  z-index: 100;
+}
+
+.headerTitle{
+  width: 150px;
+  font-size: 16px;
+  float: left;
+  display: inline;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: red;
+  height: 30px;
+}
+
+.content{
+  width: 95%;
+  height: 90%;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 5%;
+  width: 95%;
+  font-size: 16px;
+  position: relative;
+  bottom: 15px;
+}
+
+.dropdown{
+  font-size: 16px;
+}
+
+.dropdown ul {
+  list-style: none;
+}
+
+.dropdown ul li{
+  background-color: lightgrey;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+.dropdown ul a{
+  color: black;
+}
+
+.dropdown ul li:hover{
+  background-color: grey;
+}
+
+.dropdown ul ul{
+  display: none;
+}
+
+.dropdown ul li:hover > ul{
+  display: block;
+}
+
+.dropdown ul ul ul{
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+
+.formTitle{
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	margin-left: 12%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.formContainer{
+	width: 100%;
+	float: left;
+}
+
+.rowContainer{
+	width: 90%;
+	height: auto;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 20px;
+	float: left;
+}
+
+.labelColumn{
+	width: 25%;
+	float: left;
+}
+
+.fieldColumn{
+	width: 75%;
+	float: left;
+}
+
+.fieldColumn input{
+	width: 75%;
+	font-size: 14px;
+}
+
+#updateOutflowForm{
+	display: inline-block;
+	margin-bottom: 3%;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#btnUpdateOutflowSubmit{
+	margin-top: 3%;
+	margin-left: 25%;
+	float: left;
+	width: 10%;
+	height: 30px;
+	border-radius: 2px;
+}
+
+#btnUpdateOutflowCancel{
+	margin-top: 3%;
+	margin-left: 10%;
+	float: left;
+	width: 10%;
+	height: 30px;
+	border-radius: 2px;
+}
+
+

@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: serif;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-right: 15px; 
+  color: black;
+}
+
+.header{
+  height: 30px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  position: sticky;
+  opacity: 1;
+  top:0;
+  z-index: 100;
+}
+
+.headerTitle{
+  width: 150px;
+  font-size: 16px;
+  float: left;
+  display: inline;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: red;
+  height: 30px;
+}
+
+.content{
+  width: 95%;
+  height: 90%;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 5%;
+  width: 95%;
+  font-size: 16px;
+  position: relative;
+  bottom: 15px;
+}
+
+.dropdown{
+  font-size: 16px;
+}
+
+.dropdown ul {
+  list-style: none;
+}
+
+.dropdown ul li{
+  background-color: lightgrey;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+.dropdown ul a{
+  color: black;
+}
+
+.dropdown ul li:hover{
+  background-color: grey;
+}
+
+.dropdown ul ul{
+  display: none;
+}
+
+.dropdown ul li:hover > ul{
+  display: block;
+}
+
+.dropdown ul ul ul{
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+
+.formTitle{
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.formContainer{
+  width: 100%;
+  float: left;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.grid_row{ 
+  display: grid; 
+  grid-template-columns: 6% 18% 18% 40% 18%; 
+  margin-left: 5%;
+}
+
+#viewInflowForm{
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 60%;
+}
+
+#viewOutflowForm{
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 60%;
+}
+
+.grid_row div{
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tableHeader{
+  font-weight: bold;
+  text-align: center;
+}
+
+.trxDesc{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: left;
+}
+
+.total{
+  margin-top: 3%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.profit{
+  color: green;
+}
+
+.loss{
+  color: red;
+}
+
+
+
+
+
+
+

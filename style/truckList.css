@@ -1,0 +1,243 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: serif;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-right: 15px; 
+  color: black;
+}
+
+.header{
+  height: 30px;
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  position: sticky;
+  opacity: 1;
+  top:0;
+  z-index: 100;
+}
+
+.headerTitle{
+  width: 150px;
+  font-size: 16px;
+  float: left;
+  display: inline;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: red;
+  height: 30px;
+}
+
+.content{
+  width: 95%;
+  height: 90%;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 5%;
+  width: 95%;
+  font-size: 16px;
+  position: static;
+  margin-bottom: 2%;
+  bottom: 15px;
+}
+
+.dropdown{
+  font-size: 16px;
+}
+
+.dropdown ul {
+  list-style: none;
+}
+
+.dropdown ul li{
+  background-color: lightgrey;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+.dropdown ul a{
+  color: black;
+}
+
+.dropdown ul li:hover{
+  background-color: grey;
+}
+
+.dropdown ul ul{
+  display: none;
+}
+
+.dropdown ul li:hover > ul{
+  display: block;
+}
+
+.dropdown ul ul ul{
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+
+.content-container{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  width: 100%;
+  display: inline-block;
+}
+
+.content-location-container{
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.locationName{
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.container{
+  width: 45%;
+  background-color: lightgrey;
+  opacity: 85%;
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+  margin-right: 2%;
+}
+
+.container img{
+  height: 120px;
+  padding: 15px;
+  float: left;
+}
+
+.truckDetail{
+  font-size: 28px;
+  float: left;
+  margin: 1px;
+  padding: 0px;
+  margin-left: 2%;
+  margin-top: 2%;
+  opacity: 1; 
+  transition: opacity 900ms ease 0s;
+  width: 65%;
+}
+
+.mainDetail > p{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+.mainDetail{
+  width: 80%;
+  margin: 1px;
+}
+
+
+.mainDetail .separator{
+  height: 0px;
+  opacity: 0;
+  margin: 0px;
+}
+
+
+.truckDetail:hover .mainDetail{
+  margin: 0px;
+  float: left;
+}
+
+.truckDetail:hover .mainDetail > p{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin: 0px;
+  margin-top: 1%;
+}
+
+.truckDetailHidden p{
+  height: 0px;
+}
+
+.truckDetail:hover .truckDetailHidden{
+  float: left;
+  height: 100px;
+  margin: 0px;
+  margin-top: 1%;
+  transition: opacity 750ms ease 0s;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.truckDetail:hover .truckDetailHidden > p{
+  margin-top: 2%;
+  height: 18px;
+}
+
+.truckDetail:hover > .mainDetail > .truckPlate{
+  padding-right: 8px;
+  border-right: 1px solid black;
+}
+
+.truckDetail:hover > .mainDetail > .truckBrand{
+  padding-left: 8px;
+  padding-right: 8px;
+  border-right: 1px solid black;
+}
+
+.truckDetail:hover > .mainDetail > .truckYear{
+  padding-left: 8px;
+}
+
+.truckDetailHidden{
+  height: 0px;
+  margin-left: 4%;
+  margin-top: 2%;
+  opacity: 0%;
+}
+
+.hiddenButton{
+  float: left;
+  height: 0px;
+  opacity: 0;
+}
+
+.btnUpdate{
+  height: 0px;
+  opacity: 0;
+}
+
+.truckDetail:hover > .hiddenButton{
+  height: 100px;
+  float: left;
+  width: 70px;
+  margin-left: 10%;
+  opacity: 1;
+}
+
+.truckDetail:hover > .hiddenButton > .btnUpdate{
+  width: 100px;
+  height: 40px;
+  margin-left: 1%;
+  margin-top: 80%;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+
+
